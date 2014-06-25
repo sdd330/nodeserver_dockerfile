@@ -9,5 +9,6 @@ RUN apt-get install -y nodejs
 RUN apt-get install -y npm
 RUN ln -s /usr/bin/nodejs /usr/bin/node
 RUN npm install -g gulp
+RUN npm install -g learnyounode
 EXPOSE 22
 EXPOSE 80
